@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Ilustración referencial de artículo de cuero">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8d9c8"/><stop offset="1" stop-color="#f4f0e9"/></linearGradient>
+ <linearGradient id="leather" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#b58058"/><stop offset=".49" stop-color="#734a34"/><stop offset="1" stop-color="#38251e"/></linearGradient>
+ <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#38251e"/><stop offset="1" stop-color="#734a34"/></linearGradient>
+ <filter id="sh"><feGaussianBlur stdDeviation="22"/></filter></defs>
+ <rect width="800" height="900" fill="url(#bg)"/>
+ <circle cx="650" cy="165" r="220" fill="#fff" opacity=".28"/><circle cx="130" cy="760" r="280" fill="#d2c3b1" opacity=".15"/>
+ <ellipse cx="401" cy="743" rx="252" ry="41" fill="#30221d" opacity=".12" filter="url(#sh)"/>
+ 
+ <path d="M213 369Q337 104 559 295Q607 351 608 400" fill="none" stroke="#3c291e" stroke-width="30" stroke-linecap="round"/><path d="M215 370Q330 133 552 303Q582 332 596 374" fill="none" stroke="#bd8c67" stroke-width="18" stroke-linecap="round"/>
+ <path d="M152 345H646Q675 353 671 390L647 690Q642 727 603 735H188Q149 728 144 686L127 398Q126 355 152 345Z" fill="url(#leather)" stroke="#462d21" stroke-width="6"/>
+ <path d="M147 349Q394 290 657 350L620 535Q400 595 175 535Z" fill="#a06e50" stroke="#3b2922" stroke-width="5"/>
+ <path d="M181 523Q402 578 617 523" fill="none" stroke="#e7be91" stroke-width="3" stroke-dasharray="4 7"/>
+ <path d="M350 525v80q49 24 99 0v-80" fill="#70452f" stroke="#e8c29b" stroke-width="3"/><rect x="376" y="556" width="48" height="50" rx="6" fill="#ad8858"/><rect x="386" y="566" width="28" height="32" rx="4" fill="#5d3b29"/>
+
+ <path d="M69 68h48" stroke="#9d836c" stroke-width="2" opacity=".6"/>
+ <text x="70" y="95" fill="#9b806a" font-family="Georgia,serif" font-size="17" letter-spacing="6">MARZZELLI STUDIO</text>
+ <text x="70" y="842" fill="#8e7b68" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">REFERENCIA VISUAL</text>
+ </svg>

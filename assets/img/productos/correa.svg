@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Ilustración referencial de artículo de cuero">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8dfd1"/><stop offset="1" stop-color="#f4f0e9"/></linearGradient>
+ <linearGradient id="leather" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#b68d67"/><stop offset=".49" stop-color="#754a32"/><stop offset="1" stop-color="#35271e"/></linearGradient>
+ <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#35271e"/><stop offset="1" stop-color="#754a32"/></linearGradient>
+ <filter id="sh"><feGaussianBlur stdDeviation="22"/></filter></defs>
+ <rect width="800" height="900" fill="url(#bg)"/>
+ <circle cx="650" cy="165" r="220" fill="#fff" opacity=".28"/><circle cx="130" cy="760" r="280" fill="#d2c3b1" opacity=".15"/>
+ <ellipse cx="401" cy="743" rx="252" ry="41" fill="#30221d" opacity=".12" filter="url(#sh)"/>
+ 
+ <path d="M174 366Q111 401 139 485Q165 575 347 601L651 647" stroke="#35261f" stroke-width="113" stroke-linecap="round" fill="none"/>
+ <path d="M174 366Q111 401 139 485Q165 575 347 601L651 647" stroke="url(#leather)" stroke-width="94" stroke-linecap="round" fill="none"/>
+ <path d="M172 352Q98 394 128 485Q169 585 352 610L657 656" stroke="#d7ab82" stroke-dasharray="5 9" stroke-width="3" fill="none"/>
+ <g transform="translate(626 643) rotate(9)"><rect x="-20" y="-62" width="121" height="120" rx="12" fill="none" stroke="#a58a56" stroke-width="22"/><rect x="-7" y="-49" width="95" height="93" rx="4" fill="none" stroke="#dfca8d" stroke-width="6"/><path d="M-64 -3H83" stroke="#bba367" stroke-width="15"/><circle cx="45" cy="-3" r="8" fill="#442d21"/></g>
+
+ <path d="M69 68h48" stroke="#9d836c" stroke-width="2" opacity=".6"/>
+ <text x="70" y="95" fill="#9b806a" font-family="Georgia,serif" font-size="17" letter-spacing="6">MARZZELLI STUDIO</text>
+ <text x="70" y="842" fill="#8e7b68" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">REFERENCIA VISUAL</text>
+ </svg>

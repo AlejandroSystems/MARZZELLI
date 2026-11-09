@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Ilustración referencial de artículo de cuero">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7d6c6"/><stop offset="1" stop-color="#f4f0e9"/></linearGradient>
+ <linearGradient id="leather" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#bb8a65"/><stop offset=".49" stop-color="#854f36"/><stop offset="1" stop-color="#4a2b23"/></linearGradient>
+ <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#4a2b23"/><stop offset="1" stop-color="#854f36"/></linearGradient>
+ <filter id="sh"><feGaussianBlur stdDeviation="22"/></filter></defs>
+ <rect width="800" height="900" fill="url(#bg)"/>
+ <circle cx="650" cy="165" r="220" fill="#fff" opacity=".28"/><circle cx="130" cy="760" r="280" fill="#d2c3b1" opacity=".15"/>
+ <ellipse cx="401" cy="743" rx="252" ry="41" fill="#30221d" opacity=".12" filter="url(#sh)"/>
+ 
+ <path d="M258 338Q260 185 401 189Q539 185 541 338" fill="none" stroke="#6f422e" stroke-width="34" stroke-linecap="round"/><path d="M258 338Q260 185 401 189Q539 185 541 338" fill="none" stroke="#ba8b6b" stroke-width="23" stroke-linecap="round"/>
+ <path d="M166 347Q167 320 193 312H610Q638 322 640 350L667 695Q663 729 631 730H161Q129 724 134 692Z" fill="url(#leather)" stroke="#6c3e2f" stroke-width="5"/>
+ <path d="M155 355Q402 415 646 355L618 497Q409 555 184 497Z" fill="#ae7252" stroke="#663f31" stroke-width="5"/>
+ <path d="M176 488Q403 545 627 488" fill="none" stroke="#ead1ae" stroke-width="3" stroke-dasharray="6 7" opacity=".68"/>
+ <path d="M206 534L193 690M596 530L610 692" stroke="#d5a481" opacity=".5" stroke-width="4"/>
+ <rect x="370" y="464" width="60" height="75" rx="7" fill="#c3a069" stroke="#82613b" stroke-width="5"/><path d="M384 486h32v18h-32z" fill="#6b4631"/>
+ <path d="M163 710H636" stroke="#ddae85" stroke-dasharray="4 8" stroke-width="3"/>
+
+ <path d="M69 68h48" stroke="#9d836c" stroke-width="2" opacity=".6"/>
+ <text x="70" y="95" fill="#9b806a" font-family="Georgia,serif" font-size="17" letter-spacing="6">MARZZELLI STUDIO</text>
+ <text x="70" y="842" fill="#8e7b68" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">REFERENCIA VISUAL</text>
+ </svg>

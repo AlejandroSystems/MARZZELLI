@@ -102,6 +102,8 @@ function initCatalog(){
   const search=$('searchProducts'), cat=$('categorySelect'), gender=$('genderSelect');
   const initCat=params.get('categoria');
   if(['carteras','mochilas','calzado','accesorios'].includes(initCat))cat.value=initCat;
+  const initGender=params.get('genero');
+  if(gender && ['Dama','Caballero','Unisex'].includes(initGender))gender.value=initGender;
   function filter(){
     const q=search.value.toLocaleLowerCase('es').trim();
     let items=PRODUCTS.filter(p=>
@@ -208,7 +210,8 @@ function initImageShowcases(){
   if(hero && first){hero.src=first.image;hero.alt=imageAlt(first);hero.classList.add('real-photo');}
   document.querySelectorAll('[data-category-image]').forEach(img=>{
     const category=img.dataset.categoryImage;
-    const matching=PHOTO_PRODUCTS.find(p=>p.category===category);
+    const gender=img.dataset.categoryGender;
+    const matching=PHOTO_PRODUCTS.find(p=>p.category===category && (!gender || p.gender===gender));
     if(matching){img.src=matching.image;img.alt=imageAlt(matching);img.classList.add('real-photo');}
   });
   document.querySelectorAll('[data-about-image]').forEach(img=>{
@@ -217,7 +220,20 @@ function initImageShowcases(){
   });
 }
 initImageShowcases();
-if(page==='inicio'){renderGrid($('featuredGrid'),PRODUCTS.slice(0,8));}
+function homeFeatured(){
+  // Prioriza variedad visual y fotografías antes de modelos ilustrados.
+  const chosen=[];
+  for(const [cat,gender] of [['carteras','Dama'],['mochilas','Dama'],['mochilas','Caballero'],['accesorios','Caballero']]){
+    const matches=PHOTO_PRODUCTS.filter(p=>p.category===cat && p.gender===gender);
+    for(const item of matches.slice(0,2))if(!chosen.includes(item))chosen.push(item);
+  }
+  for(const p of [...PHOTO_PRODUCTS,...PRODUCTS]){
+    if(chosen.length>=8)break;
+    if(!chosen.some(x=>x.id===p.id))chosen.push(p);
+  }
+  return chosen.slice(0,8);
+}
+if(page==='inicio'){renderGrid($('featuredGrid'),homeFeatured());}
 if(['catalogo','dama','caballero'].includes(page))initCatalog();
 if(page==='producto'){initProductDetail();refreshAddedButtons();}
 if(page==='seleccion')initSelection();

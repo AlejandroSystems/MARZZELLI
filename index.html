@@ -7,14 +7,36 @@
   </nav>
   <div class="head-actions"><a href="seleccion.html" class="selection-link" aria-label="Ver mi selección de productos"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 8h14l-1.2 12H6.2L5 8Z"/><path d="M9 9V6a3 3 0 016 0v3"/></svg><span id="selectionCount" class="selection-count">0</span></a><button type="button" class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span></span></button></div>
 </div></header><main id="principal">
-<section class="hero-editorial" aria-label="Presentación de MARZZELLI">
-<h1 class="sr-only">MARZZELLI: Arte y elegancia en cuero</h1>
-<picture class="hero-editorial-picture">
-  <source media="(max-width: 680px)" srcset="assets/img/identidad/portada-marzzelli-mobile.webp">
-  <img src="assets/img/identidad/portada-marzzelli.webp" alt="Portada MARZZELLI. Arte y elegancia en cuero: carteras, mochilas, calzado, billeteras y correas de inspiración clásica." width="1800" height="900" fetchpriority="high">
-</picture>
-<div class="hero-mobile-copy"><span class="eyebrow">INDUSTRIAS MARZZELLI PERÚ CUEROS</span><h2>Arte y elegancia <em>en cuero.</em></h2><p>Carteras, mochilas, billeteras y accesorios para dama y caballero.</p></div>
-<div class="hero-action-bar"><div class="container hero-action-inner"><p><strong>Confección peruana</strong><span>Diseño, cuero y textil para cada ocasión.</span></p><div class="hero-buttons"><a class="btn btn-wine" href="catalogo.html">Explorar catálogo <span>↗</span></a><a class="btn btn-outline" href="nosotros.html">Conocer la empresa</a></div></div></div>
+<section class="hero" aria-label="Productos MARZZELLI destacados">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="eyebrow"><span class="dash"></span> CONFECCIÓN PERUANA · CUERO Y TEXTIL</span>
+      <h1>Diseño que se lleva.<br><em>Calidad que se siente.</em></h1>
+      <p>En MARZZELLI confeccionamos carteras, mochilas, calzado y accesorios para dama y caballero. Descubre nuestra colección de artículos en cuero, textil o combinaciones de ambos.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-dark" href="catalogo.html">Conoce el catálogo <span aria-hidden="true">→</span></a>
+        <a class="btn btn-outline" href="nosotros.html">Nuestra empresa</a>
+      </div>
+      <div class="hero-micro">
+        <span><b>08</b> Líneas del catálogo</span><span class="divider-vertical"></span>
+        <span><b>02</b> Materiales destacados</span>
+      </div>
+    </div>
+    <div class="hero-visual hero-carousel" id="heroCarousel" aria-roledescription="carrusel" aria-label="Productos destacados de MARZZELLI" tabindex="0">
+      <div class="hero-photo-caption">MARZZELLI <span>COLECCIÓN DE PRODUCTOS</span></div>
+      <div class="hero-circle" aria-hidden="true"></div>
+      <a id="heroCarouselLink" class="hero-slide-link" href="catalogo.html" aria-label="Ver producto destacado">
+        <img id="heroCarouselImage" data-hero-image src="assets/img/productos/mochila.svg" alt="Imagen referencial de producto MARZZELLI" width="800" height="900" fetchpriority="high">
+      </a>
+      <button type="button" class="carousel-arrow carousel-prev" id="heroPrev" aria-label="Ver producto anterior" title="Anterior">&#8249;</button>
+      <button type="button" class="carousel-arrow carousel-next" id="heroNext" aria-label="Ver producto siguiente" title="Siguiente">&#8250;</button>
+      <div class="hero-product-meta" aria-live="polite" aria-atomic="true">
+        <span class="hero-product-category" id="heroProductCategory">COLECCIÓN MARZZELLI</span>
+        <strong class="hero-product-name" id="heroProductName">Descubre nuestros productos</strong>
+        <span class="hero-product-count" id="heroProductCount">01 / 01</span>
+      </div>
+    </div>
+  </div>
 </section>
 <section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">EXPLORA NUESTRAS LÍNEAS</span><h2>Un producto para <em>cada momento.</em></h2></div><p>Descubre nuestras categorías para el uso diario, la oficina y las ocasiones especiales. También puedes <a href="catalogo.html?categoria=calzado">ver la línea de calzado</a>.</p></div><div class="category-tiles">
 <a href="catalogo.html?categoria=carteras" class="category-tile"><img data-category-image="carteras" data-category-gender="Dama" src="assets/img/identidad/coleccion-dama.webp" alt="Cartera para dama, diseño referencial MARZZELLI" loading="lazy"><div><span>01 / DAMA</span><h3>Carteras y bolsos</h3><b>Explorar ↗</b></div></a>

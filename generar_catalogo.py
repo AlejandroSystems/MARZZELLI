@@ -20,6 +20,13 @@ EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif"}
 # Su nombre REAL se conserva en la URL publicada (GitHub sí las distingue).
 GROUPS = (
     {
+        "names": ("Carterasmujer", "CarterasMujer"),
+        "category": "carteras",
+        "section": "Carteras y bolsos",
+        "gender": "Dama",
+        "singular": "Cartera o bolso para dama",
+    },
+    {
         "names": ("CarterasHombre",),
         "category": "accesorios",
         "section": "Billeteras y carteras",
@@ -65,6 +72,7 @@ def main() -> int:
             pictures.extend(
                 file for file in folder.rglob('*')
                 if file.is_file() and file.suffix.lower() in EXTENSIONS
+                and not any(x in file.stem.casefold() for x in ('catalogo','catálogo','collage','portada','banner'))
             )
         pictures.sort(key=lambda file: file.relative_to(ROOT).as_posix().casefold())
         counts.append((" / ".join(f.name for f in folders), len(pictures)))

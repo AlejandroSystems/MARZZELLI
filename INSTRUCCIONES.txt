@@ -1,0 +1,12 @@
+MARZZELLI — Ajuste de portada V3.1
+
+1. Abre C:\AZM\PaginaWebsimple en el Explorador de Windows.
+2. Guarda una copia de tu styles.css actual.
+3. Copia el styles.css de este paquete y reemplaza el existente en la raiz.
+4. NO cambies index.html ni las imagenes.
+5. Actualiza Live Server con Ctrl+F5.
+6. Cuando veas la portada completa, sube SOLO styles.css a GitHub.
+
+El cambio evita el recorte generado por max-height:720px y object-fit:cover.
+La imagen original mantiene su proporción. En escritorio puede quedar una
+franja color chocolate a los lados: es normal y evita cortar el texto.

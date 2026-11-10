@@ -2,6 +2,138 @@
 /* No edites este archivo a mano: agrega fotos y vuelve a ejecutar el generador. */
 window.MARZZELLI_FOTOS = [
   {
+    "id": "foto-459e10fa3939",
+    "name": "Cartera o bolso para dama 01",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20de%20cuero%20cognac%20MARZZELLI-5.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-eac2b02c87f0",
+    "name": "Cartera o bolso para dama 02",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20de%20lujo%20verde%20oliva%20con%20detalles%20dorados-11.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-8058d13f3d47",
+    "name": "Cartera o bolso para dama 03",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20MARZELLI%20beige%20con%20detalles%20dorados-8.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-f24b372eaa2b",
+    "name": "Cartera o bolso para dama 04",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20Marzelli%20burdeos%20de%20lujo-6.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-7222d4696199",
+    "name": "Cartera o bolso para dama 05",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20Marzelli%20de%20Cuero%20Cognac-4.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-ca1b80f47e36",
+    "name": "Cartera o bolso para dama 06",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20Marzelli%20de%20cuero%20negro-1.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-4eadc13511c6",
+    "name": "Cartera o bolso para dama 07",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20Marzelli%20de%20cuero%20negro-12.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-f609947fe9e1",
+    "name": "Cartera o bolso para dama 08",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20Marzzelli%20de%20cuero%20caramelo-9.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-44b41023e239",
+    "name": "Cartera o bolso para dama 09",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20negro%20Marzzelli%20con%20detalles%20dorados-3.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-e042550ce6a3",
+    "name": "Cartera o bolso para dama 10",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20negro%20MARZZELLI%20con%20herrajes%20dorados-13.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-5590644ae743",
+    "name": "Cartera o bolso para dama 11",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20Tote%20Borgo%C3%B1a%20Marzzelli-7.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-f0d4cbdad300",
+    "name": "Cartera o bolso para dama 12",
+    "category": "carteras",
+    "section": "Carteras y bolsos",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Carterasmujer/Bolso%20tote%20verde%20oliva%20MARZELLI-10.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
     "id": "foto-5bb19e80c549",
     "name": "Billetera / cartera para caballero 01",
     "category": "accesorios",
@@ -68,8 +200,118 @@ window.MARZZELLI_FOTOS = [
     "isPhoto": true
   },
   {
-    "id": "foto-53dbd04bbf98",
+    "id": "foto-e05cb9a59ee6",
     "name": "Billetera / cartera para caballero 07",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_09%20p.m-1.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-c56d38d2ca3b",
+    "name": "Billetera / cartera para caballero 08",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_10%20p.m-2.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-7b95c5566b46",
+    "name": "Billetera / cartera para caballero 09",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_11%20p.m-3.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-8633d863325a",
+    "name": "Billetera / cartera para caballero 10",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_12%20p.m-4.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-df302243d24b",
+    "name": "Billetera / cartera para caballero 11",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_13%20p.m-5.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-7a79737e05ed",
+    "name": "Billetera / cartera para caballero 12",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_14%20p.m-6.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-5b06a009a937",
+    "name": "Billetera / cartera para caballero 13",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_15%20p.m-7.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-246c57c200cd",
+    "name": "Billetera / cartera para caballero 14",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_17%20p.m-8.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-39983ce4c3ab",
+    "name": "Billetera / cartera para caballero 15",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_18%20p.m-9.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-d0a8fd5fcb01",
+    "name": "Billetera / cartera para caballero 16",
+    "category": "accesorios",
+    "section": "Billeteras y carteras",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_19%20p.m-10.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-53dbd04bbf98",
+    "name": "Billetera / cartera para caballero 17",
     "category": "accesorios",
     "section": "Billeteras y carteras",
     "gender": "Caballero",
@@ -80,7 +322,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-183166f28bbf",
-    "name": "Billetera / cartera para caballero 08",
+    "name": "Billetera / cartera para caballero 18",
     "category": "accesorios",
     "section": "Billeteras y carteras",
     "gender": "Caballero",
@@ -91,7 +333,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-eb5728c6e897",
-    "name": "Billetera / cartera para caballero 09",
+    "name": "Billetera / cartera para caballero 19",
     "category": "accesorios",
     "section": "Billeteras y carteras",
     "gender": "Caballero",
@@ -101,8 +343,118 @@ window.MARZZELLI_FOTOS = [
     "isPhoto": true
   },
   {
-    "id": "foto-ea3ce63a4e2c",
+    "id": "foto-6421202276b7",
     "name": "Mochila para caballero 01",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_23%20p.m-1.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-8512136824ce",
+    "name": "Mochila para caballero 02",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_24%20p.m-2.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-0cfd70518180",
+    "name": "Mochila para caballero 03",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_25%20p.m-3.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-46255bfadcb5",
+    "name": "Mochila para caballero 04",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_26%20p.m-4.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-a8dc2ae6b27c",
+    "name": "Mochila para caballero 05",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_27%20p.m-5.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-5b1267bca084",
+    "name": "Mochila para caballero 06",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_28%20p.m-6.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-e629bd50ee24",
+    "name": "Mochila para caballero 07",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_30%20p.m-7.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-66ed2479981f",
+    "name": "Mochila para caballero 08",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_31%20p.m-8.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-2eaf528003c5",
+    "name": "Mochila para caballero 09",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_32%20p.m-9.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-b49312b17469",
+    "name": "Mochila para caballero 10",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Caballero",
+    "material": "Material por confirmar",
+    "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_34%20p.m-10.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-ea3ce63a4e2c",
+    "name": "Mochila para caballero 11",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Caballero",
@@ -113,7 +465,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-e55c76254860",
-    "name": "Mochila para caballero 02",
+    "name": "Mochila para caballero 12",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Caballero",
@@ -124,7 +476,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-bc6d49de5a40",
-    "name": "Mochila para caballero 03",
+    "name": "Mochila para caballero 13",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Caballero",
@@ -135,7 +487,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-4e63466bc536",
-    "name": "Mochila para caballero 04",
+    "name": "Mochila para caballero 14",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Caballero",
@@ -146,7 +498,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-e5263e294264",
-    "name": "Mochila para caballero 05",
+    "name": "Mochila para caballero 15",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Caballero",
@@ -200,8 +552,118 @@ window.MARZZELLI_FOTOS = [
     "isPhoto": true
   },
   {
-    "id": "foto-9e4059d98f26",
+    "id": "foto-ba731bf8a5f1",
     "name": "Mochila para dama 05",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_20%20p.m-1.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-d962fc6e5ca7",
+    "name": "Mochila para dama 06",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_21%20p.m-2.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-40bb1f6d82d9",
+    "name": "Mochila para dama 07",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_22%20p.m-3.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-1e5888724b33",
+    "name": "Mochila para dama 08",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_23%20p.m-4.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-1050b909c362",
+    "name": "Mochila para dama 09",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_24%20p.m-5.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-7d1ab3235e94",
+    "name": "Mochila para dama 10",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_25%20p.m-6.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-5cd6cc73c3e7",
+    "name": "Mochila para dama 11",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_27%20p.m-7.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-2ba9e8c0826b",
+    "name": "Mochila para dama 12",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_28%20p.m-8.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-731f576af824",
+    "name": "Mochila para dama 13",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_29%20p.m-9.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-ef828a0c9270",
+    "name": "Mochila para dama 14",
+    "category": "mochilas",
+    "section": "Mochilas",
+    "gender": "Dama",
+    "material": "Material por confirmar",
+    "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_30%20p.m-10.png",
+    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "isPhoto": true
+  },
+  {
+    "id": "foto-9e4059d98f26",
+    "name": "Mochila para dama 15",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Dama",
@@ -212,7 +674,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-0d98e43e9c32",
-    "name": "Mochila para dama 06",
+    "name": "Mochila para dama 16",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Dama",
@@ -223,7 +685,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-7ff523b723b9",
-    "name": "Mochila para dama 07",
+    "name": "Mochila para dama 17",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Dama",
@@ -234,7 +696,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-df2c028e46ff",
-    "name": "Mochila para dama 08",
+    "name": "Mochila para dama 18",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Dama",
@@ -245,7 +707,7 @@ window.MARZZELLI_FOTOS = [
   },
   {
     "id": "foto-d676330bada4",
-    "name": "Mochila para dama 09",
+    "name": "Mochila para dama 19",
     "category": "mochilas",
     "section": "Mochilas",
     "gender": "Dama",

@@ -220,6 +220,56 @@ function initImageShowcases(){
   });
 }
 initImageShowcases();
+/* Carrusel manual: recorre fotografías registradas en catalogo-fotos.js.
+   Si no hay fotos cargadas, muestra modelos ilustrativos provisionales. */
+function initHeroCarousel(){
+  const root=$('heroCarousel');
+  const image=$('heroCarouselImage');
+  const link=$('heroCarouselLink');
+  const previous=$('heroPrev');
+  const next=$('heroNext');
+  const name=$('heroProductName');
+  const category=$('heroProductCategory');
+  const count=$('heroProductCount');
+  if(!root || !image || !link || !previous || !next || !name || !category || !count)return;
+  const list=PHOTO_PRODUCTS.length?PHOTO_PRODUCTS:DEMO_PRODUCTS;
+  if(!list.length)return;
+  // Diversidad inicial: primero uno de cada línea presente, luego los demás.
+  const seen=new Set();
+  const ordered=[];
+  for(const product of list){
+    const key=product.category+'-'+product.gender;
+    if(!seen.has(key)){seen.add(key);ordered.push(product);}
+  }
+  for(const product of list){if(!ordered.includes(product))ordered.push(product);}
+  let current=0;
+  function show(index){
+    current=(index+ordered.length)%ordered.length;
+    const product=ordered[current];
+    image.src=product.image;
+    image.alt=imageAlt(product);
+    link.href='producto.html?id='+encodeURIComponent(product.id);
+    link.setAttribute('aria-label','Ver detalles de '+product.name);
+    name.textContent=product.name;
+    category.textContent=product.gender.toUpperCase()+' / '+product.section.toUpperCase();
+    count.textContent=String(current+1).padStart(2,'0')+' / '+String(ordered.length).padStart(2,'0');
+  }
+  previous.addEventListener('click',()=>show(current-1));
+  next.addEventListener('click',()=>show(current+1));
+  root.addEventListener('keydown',event=>{
+    if(event.key==='ArrowLeft'){event.preventDefault();show(current-1);}
+    if(event.key==='ArrowRight'){event.preventDefault();show(current+1);}
+  });
+  // Si alguna fotografía deja de existir, pasa automáticamente a la siguiente.
+  let failed=0;
+  image.addEventListener('error',()=>{
+    if(failed++<ordered.length){show(current+1);}
+    else{image.src='assets/img/productos/mochila.svg';image.alt='Ilustración de mochila';}
+  });
+  image.addEventListener('load',()=>{failed=0;});
+  show(0);
+}
+initHeroCarousel();
 function homeFeatured(){
   // Prioriza variedad visual y fotografías antes de modelos ilustrados.
   const chosen=[];

@@ -9,7 +9,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20de%20cuero%20cognac%20MARZZELLI-5.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -20,7 +20,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20de%20lujo%20verde%20oliva%20con%20detalles%20dorados-11.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -31,7 +31,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20MARZELLI%20beige%20con%20detalles%20dorados-8.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -42,7 +42,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20Marzelli%20burdeos%20de%20lujo-6.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -53,7 +53,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20Marzelli%20de%20Cuero%20Cognac-4.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -64,7 +64,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20Marzelli%20de%20cuero%20negro-1.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -75,7 +75,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20Marzelli%20de%20cuero%20negro-12.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -86,7 +86,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20Marzzelli%20de%20cuero%20caramelo-9.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -97,7 +97,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20negro%20Marzzelli%20con%20detalles%20dorados-3.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -108,7 +108,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20negro%20MARZZELLI%20con%20herrajes%20dorados-13.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -119,7 +119,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20Tote%20Borgo%C3%B1a%20Marzzelli-7.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -130,7 +130,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Carterasmujer/Bolso%20tote%20verde%20oliva%20MARZELLI-10.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -141,7 +141,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_09%20p.m-1.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -152,7 +152,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_10%20p.m-2.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -163,7 +163,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_11%20p.m-3.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -174,7 +174,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_12%20p.m-4.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -185,7 +185,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_13%20p.m-5.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -196,7 +196,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_14%20p.m-6.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -207,7 +207,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_15%20p.m-7.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -218,7 +218,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_17%20p.m-8.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -229,7 +229,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_18%20p.m-9.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -240,7 +240,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "CarterasHombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_39_19%20p.m-10.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -251,7 +251,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_23%20p.m-1.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -262,7 +262,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_24%20p.m-2.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -273,7 +273,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_25%20p.m-3.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -284,7 +284,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_26%20p.m-4.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -295,7 +295,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_27%20p.m-5.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -306,7 +306,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_28%20p.m-6.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -317,7 +317,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_30%20p.m-7.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -328,7 +328,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_31%20p.m-8.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -339,7 +339,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_32%20p.m-9.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -350,7 +350,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Caballero",
     "material": "Material por confirmar",
     "image": "Mochilashombre/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2006_52_34%20p.m-10.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -361,7 +361,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_20%20p.m-1.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -372,7 +372,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_21%20p.m-2.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -383,7 +383,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_22%20p.m-3.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -394,7 +394,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_23%20p.m-4.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -405,7 +405,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_24%20p.m-5.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -416,7 +416,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_25%20p.m-6.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -427,7 +427,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_27%20p.m-7.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -438,7 +438,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_28%20p.m-8.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -449,7 +449,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_29%20p.m-9.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   },
   {
@@ -460,7 +460,7 @@ window.MARZZELLI_FOTOS = [
     "gender": "Dama",
     "material": "Material por confirmar",
     "image": "Mochilasmujer/Imagen%20de%20ChatGPT%209%20nov%202026%2C%2007_01_30%20p.m-10.png",
-    "description": "Fotografía incorporada a la maqueta. El material, las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo.",
+    "description": "Imagen del catálogo MARZZELLI. Materiales, medidas y disponibilidad sujetos a confirmación.",
     "isPhoto": true
   }
 ];

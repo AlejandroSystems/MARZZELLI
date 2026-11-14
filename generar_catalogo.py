@@ -90,14 +90,14 @@ def main() -> int:
                 "material": "Material por confirmar",
                 "image": url,
                 "description": (
-                    "Fotografía incorporada a la maqueta. El material, "
-                    "las medidas y la disponibilidad deben confirmarse antes de publicar el catálogo definitivo."
+                    "Imagen del catálogo MARZZELLI. Materiales, "
+                    "medidas y disponibilidad sujetos a confirmación."
                 ),
                 "isPhoto": True,
             })
     if not products:
         print("\nNo se encontraron fotografías. Revisa que estén dentro de las carpetas mencionadas.")
-        print("No se modificó catalogo-fotos.js; se mantienen las ilustraciones provisionales.")
+        print("No se modificó catalogo-fotos.js; comprueba las rutas y vuelve a ejecutar el generador.")
         return 1
     content = (
         "/* GENERADO AUTOMÁTICAMENTE CON generar_catalogo.py. */\n"

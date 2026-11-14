@@ -76,3 +76,118 @@
 @media(max-width:770px){.hero-visual.hero-carousel{height:420px;min-height:0}.hero-slide-link{height:76%;width:85%}.hero-slide-link img{max-height:318px}.hero-product-meta{bottom:13px}.hero-photo-caption{top:18px}}
 @media(max-width:480px){.hero-visual.hero-carousel{height:350px}.hero-slide-link{width:84%;height:74%}.hero-slide-link img{max-height:242px}.carousel-arrow{width:36px;height:42px;font-size:29px}.carousel-prev{left:7px}.carousel-next{right:7px}.hero-product-meta{left:13px;right:13px;bottom:10px;padding:9px 11px}.hero-product-name{font-size:14px}.hero-product-category{font-size:8px}.hero-product-count{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.hero-slide-link img{transition:none}}
+
+/* ==============================================================
+   MARZZELLI V5.1 · IDENTIDAD VINO Y TARJETAS COMPACTAS EN INICIO
+   Afecta únicamente la galería "Descubre nuestras propuestas".
+   ============================================================== */
+:root{
+  --brand:#530E20;
+  --brand-dark:#390916;
+  --brand-light:#873447;
+  --gold:#CDA76B;
+  --green:var(--brand);
+  --green-dark:var(--brand-dark);
+  --wine:var(--brand);
+  --wine-dark:var(--brand-dark);
+  --wine-light:var(--brand-light);
+}
+.announcement,.story-strip,.page-hero-dark{background:var(--brand)}
+.site-header{background:#fff}
+.footer{background:#390916;color:#f6eee9}
+.footer-top p,.footer-links a{color:#f1dfe0}
+.footer-bottom{color:#e2c5c6}
+.story-grid p,.page-hero-dark p{color:#f4dcdf}
+.story-graphic{border-color:#c29b9b70}
+.story-graphic>span{color:#eeddd6}
+.btn-dark:hover,.product-action:hover,.product-action.is-added{background:var(--brand-dark)}
+.hero-micro b,.category-tile b,.material-chip,.detail-meta strong{color:var(--brand)}
+.hero-product-name,.hero-photo-caption{color:var(--brand)}
+.hero-text h1 em,.page-hero h1 em{color:var(--brand-light)}
+.logo{gap:12px;flex-shrink:0}
+.brand-mark{display:grid;place-items:center;width:52px;height:52px;background:var(--brand-dark);border-radius:5px;padding:7px}
+.brand-mark img{display:block;width:100%;height:100%;object-fit:contain}
+.logo-letters strong{color:var(--brand);letter-spacing:2.2px}
+.logo-letters small{letter-spacing:1.6px}
+.footer-brand{display:inline-block;max-width:270px}
+.footer-logo{display:block;width:100%;height:auto;object-fit:contain;border-radius:2px}
+
+/* Ajuste solicitado: evitar fotos enormes y recortadas en destacados de inicio.
+   NO altera fichas, catálogo general ni tarjetas de categorías. */
+#featuredGrid{align-items:stretch}
+#featuredGrid .product-card{min-width:0;height:100%}
+#featuredGrid .product-image-link{
+  height:292px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+  background:#f4ede6;
+  padding:9px;
+}
+#featuredGrid .product-image-link img{
+  display:block;
+  width:100%;
+  height:100%;
+  aspect-ratio:auto;
+  object-fit:contain;
+  object-position:center center;
+  transform:none;
+}
+#featuredGrid .product-image-link:hover img{transform:scale(1.018)}
+#featuredGrid .product-text{padding:14px 16px 18px}
+#featuredGrid .product-text h3{font-size:16px;line-height:1.3}
+@media(max-width:1040px){#featuredGrid .product-image-link{height:252px}}
+@media(max-width:770px){#featuredGrid .product-image-link{height:240px}}
+@media(max-width:480px){
+  .brand-mark{width:43px;height:43px;padding:6px}
+  .logo-letters strong{font-size:13px;letter-spacing:1.3px}
+  .logo-letters small{font-size:8px;letter-spacing:0.6px}
+  #featuredGrid .product-image-link{height:185px;padding:5px}
+  #featuredGrid .product-text{padding:10px 11px 12px}
+  #featuredGrid .product-text h3{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){#featuredGrid .product-image-link img{transition:none}}
+
+
+/* MARZZELLI V5.2 — mismo encuadre en Catálogo, Dama y Caballero.
+   Antes #featuredGrid tenía object-fit:contain, pero #catalogGrid seguía
+   heredando object-fit:cover y aspect-ratio:4/4.4 (recorte exagerado).
+   Este cambio es exclusivamente visual: no altera los productos o filtros. */
+#catalogGrid{align-items:stretch}
+#catalogGrid .product-card{min-width:0;height:100%}
+#catalogGrid .product-image-link{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:292px;
+  padding:9px;
+  overflow:hidden;
+  background:#f4ede6;
+}
+#catalogGrid .product-image-link img{
+  display:block;
+  width:100%;
+  height:100%;
+  max-height:100%;
+  aspect-ratio:auto;
+  object-fit:contain;
+  object-position:center center;
+  transform:none;
+}
+#catalogGrid .product-image-link:hover img{transform:scale(1.018)}
+#catalogGrid .product-text{padding:14px 16px 18px}
+#catalogGrid .product-text h3{font-size:16px;line-height:1.3}
+@media(max-width:1040px){#catalogGrid .product-image-link{height:252px}}
+@media(max-width:770px){#catalogGrid .product-image-link{height:240px}}
+@media(max-width:480px){
+  #catalogGrid .product-image-link{height:185px;padding:5px}
+  #catalogGrid .product-text{padding:10px 11px 12px}
+  #catalogGrid .product-text h3{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){#catalogGrid .product-image-link img{transition:none}}
+
+/* Ficha individual: mostrar la fotografía entera al abrir un producto. */
+.detail-media{display:flex;align-items:center;justify-content:center;min-width:0;overflow:hidden;padding:12px}
+.detail-media img{width:100%;height:min(70vw,500px);aspect-ratio:auto;object-fit:contain;object-position:center;background:transparent}
+@media(max-width:480px){.detail-media img{height:340px}}

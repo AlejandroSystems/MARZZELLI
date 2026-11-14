@@ -1,28 +1,14 @@
 /*
  * INDUSTRIAS MARZZELLI PERÚ CUEROS E.I.R.L.
- * Maqueta estática: no base de datos, no APIs, no pagos, no envíos de formularios.
+ * Catálogo corporativo estático: información y selección de productos.
  * Las ilustraciones SVG son referenciales; las fotografías se incorporan
  * automáticamente desde catalogo-fotos.js (generado en tu PC).
  */
 'use strict';
-const DEMO_PRODUCTS = [
-  {id:'cartera',name:'Cartera estructurada',category:'carteras',section:'Carteras y bolsos',gender:'Dama',material:'Cuero',image:'assets/img/productos/cartera.svg',description:'Cartera de silueta estructurada, pensada para combinar estilo y funcionalidad. Modelo de demostración.'},
-  {id:'bolso',name:'Bolso de uso diario',category:'carteras',section:'Carteras y bolsos',gender:'Dama',material:'Textil combinado con cuero',image:'assets/img/productos/bolso.svg',description:'Bolso de línea funcional, con propuesta de materiales combinados. Modelo de demostración.'},
-  {id:'mochila',name:'Mochila urbana',category:'mochilas',section:'Mochilas y morrales',gender:'Unisex',material:'Cuero y textil',image:'assets/img/productos/mochila.svg',description:'Mochila ilustrativa para actividades de todos los días. Modelo de demostración.'},
-  {id:'morral',name:'Morral clásico',category:'mochilas',section:'Mochilas y morrales',gender:'Caballero',material:'Cuero',image:'assets/img/productos/morral.svg',description:'Morral de inspiración clásica y diseño práctico. Modelo de demostración.'},
-  {id:'calzado',name:'Calzado de vestir',category:'calzado',section:'Calzado',gender:'Caballero',material:'Cuero',image:'assets/img/productos/calzado.svg',description:'Calzado de estilo formal para un atuendo elegante. Modelo de demostración.'},
-  {id:'billetera',name:'Billetera clásica',category:'accesorios',section:'Accesorios',gender:'Caballero',material:'Cuero',image:'assets/img/productos/billetera.svg',description:'Billetera compacta de líneas tradicionales. Modelo de demostración.'},
-  {id:'correa',name:'Correa de cuero',category:'accesorios',section:'Accesorios',gender:'Unisex',material:'Cuero',image:'assets/img/productos/correa.svg',description:'Accesorio versátil de estilo sobrio. Modelo de demostración.'},
-  {id:'monedero',name:'Monedero compacto',category:'accesorios',section:'Accesorios',gender:'Dama',material:'Cuero',image:'assets/img/productos/monedero.svg',description:'Monedero pequeño pensado para los esenciales. Modelo de demostración.'}
-];
 // El archivo catalogo-fotos.js siempre se carga ANTES de script.js.
 // Cada fotografía listada aquí corresponde a un archivo físico del repositorio.
 const PHOTO_PRODUCTS = Array.isArray(window.MARZZELLI_FOTOS) ? window.MARZZELLI_FOTOS : [];
-// Las ilustraciones solo rellenan las líneas aún sin fotos reales.
-const PRODUCTS = PHOTO_PRODUCTS.length
-  ? [...PHOTO_PRODUCTS, ...DEMO_PRODUCTS.filter(d =>
-       !PHOTO_PRODUCTS.some(p => p.category === d.category && p.gender === d.gender))]
-  : DEMO_PRODUCTS;
+const PRODUCTS = PHOTO_PRODUCTS;
 const STORAGE_KEY='marzzelli-muestra-seleccion-v3';
 const $=(id)=>document.getElementById(id);
 const page=document.body.dataset.page;
@@ -80,7 +66,7 @@ function imageAlt(p){
 }
 function productCard(p){
   const name=esc(p.name), img=esc(p.image), id=esc(p.id);
-  const label=p.isPhoto ? '' : '<span class="product-pill">ILUSTRATIVO</span>';
+  const label='';
   return `<article class="product-card">
     <a class="product-image-link" href="producto.html?id=${encodeURIComponent(p.id)}" aria-label="Ver detalle de ${name}">
       <img src="${img}" alt="${esc(imageAlt(p))}" loading="lazy" width="800" height="900">${label}
@@ -124,7 +110,7 @@ function initProductDetail(){
   if(!detail)return;
   const id=new URLSearchParams(window.location.search).get('id');
   const p=PRODUCTS.find(x=>x.id===id);
-  if(!p){detail.innerHTML='<div class="empty-state"><h2>Artículo no encontrado</h2><p>Este artículo no está incluido en la maqueta.</p><a class="btn btn-dark" href="catalogo.html">Volver al catálogo</a></div>';return;}
+  if(!p){detail.innerHTML='<div class="empty-state"><h2>Artículo no encontrado</h2><p>Este artículo no se encuentra en el catálogo actual.</p><a class="btn btn-dark" href="catalogo.html">Volver al catálogo</a></div>';return;}
   document.title=`${p.name} | MARZZELLI Perú Cueros`;
   $('detailCrumb').textContent=p.name;
   detail.innerHTML=`<div class="detail-media"><img src="${esc(p.image)}" alt="${esc(imageAlt(p))}" width="800" height="900"></div>
@@ -132,9 +118,9 @@ function initProductDetail(){
       <p>${esc(p.description)}</p>
       <div class="detail-meta"><strong>Material</strong><span>${esc(p.material)}</span></div>
       <div class="detail-meta"><strong>Colección</strong><span>${esc(p.gender)}</span></div>
-      <div class="detail-meta"><strong>Imagen</strong><span>${p.isPhoto?'Fotografía incorporada al catálogo':'Ilustración provisional de maqueta'}</span></div>
+      <div class="detail-meta"><strong>Imagen</strong><span>${p.isPhoto?'Fotografía incorporada al catálogo':'Imagen referencial'}</span></div>
       <div class="detail-actions"><button class="btn btn-dark btn-full" type="button" data-add="${esc(p.id)}">+ Agregar a mi selección</button><a class="btn btn-outline btn-full" href="seleccion.html">Ver mi selección →</a></div>
-      <p class="detail-notice">Maqueta estática. No se realizan compras ni se verifica stock.</p>
+      <p class="detail-notice">Consulta disponibilidad y características antes de realizar un pedido.</p>
     </div>`;
 }
 function initSelection(){
@@ -153,7 +139,7 @@ function initSelection(){
   $('copySelection').addEventListener('click',async()=>{
     const list=getSelection().map(id=>PRODUCTS.find(p=>p.id===id)).filter(Boolean);
     if(!list.length)return;
-    const content=`MARZZELLI PERÚ CUEROS - Consulta referencial\n\n${list.map((p,i)=>`${i+1}. ${p.name} (${p.gender}; ${p.material})`).join('\n')}\n\nMaqueta sin precios ni compra online.`;
+    const content=`MARZZELLI PERÚ CUEROS - Consulta referencial\n\n${list.map((p,i)=>`${i+1}. ${p.name} (${p.gender}; ${p.material})`).join('\n')}\n\nDisponibilidad y precios sujetos a confirmación.`;
     const success=await copyText(content);
     notify(success?'Lista copiada. Puedes pegarla donde quieras.':'No fue posible copiar automáticamente.');
   });
@@ -176,7 +162,7 @@ function initContact(){
     const message=$('contactMessage').value.trim();
     if(!name||!interest||!message){notify('Completa nombre, producto y mensaje.');return;}
     if(email&& !$('contactEmail').checkValidity()){notify('Revisa el formato del correo.');return;}
-    output.textContent=`Hola, soy ${name}.\n\nProducto de interés: ${interest}\n${email?`Correo: ${email}\n`:''}\n${message}\n\nConsulta preparada desde la maqueta de MARZZELLI.`;
+    output.textContent=`Hola, soy ${name}.\n\nProducto de interés: ${interest}\n${email?`Correo: ${email}\n`:''}\n${message}\n\nConsulta preparada desde el catálogo MARZZELLI.`;
     preview.hidden=false;preview.scrollIntoView({behavior:'smooth',block:'nearest'});notify('Mensaje preparado. No se ha enviado.');
   });
   $('copyContact').addEventListener('click',async()=>{
@@ -232,17 +218,16 @@ function initHeroCarousel(){
   const category=$('heroProductCategory');
   const count=$('heroProductCount');
   if(!root || !image || !link || !previous || !next || !name || !category || !count)return;
-  const list=PHOTO_PRODUCTS.length?PHOTO_PRODUCTS:DEMO_PRODUCTS;
-  if(!list.length)return;
-  // Diversidad inicial: primero uno de cada línea presente, luego los demás.
-  const seen=new Set();
-  const ordered=[];
-  for(const product of list){
-    const key=product.category+'-'+product.gender;
-    if(!seen.has(key)){seen.add(key);ordered.push(product);}
+  const ordered=[...PHOTO_PRODUCTS];
+  if(!ordered.length){
+    name.textContent='Catálogo en actualización';
+    count.textContent='00 / 00';
+    previous.disabled=true;
+    next.disabled=true;
+    return;
   }
-  for(const product of list){if(!ordered.includes(product))ordered.push(product);}
   let current=0;
+  const unavailable=new Set();
   function show(index){
     current=(index+ordered.length)%ordered.length;
     const product=ordered[current];
@@ -251,22 +236,36 @@ function initHeroCarousel(){
     link.href='producto.html?id='+encodeURIComponent(product.id);
     link.setAttribute('aria-label','Ver detalles de '+product.name);
     name.textContent=product.name;
-    category.textContent=product.gender.toUpperCase()+' / '+product.section.toUpperCase();
+    category.textContent=(product.gender+' / '+product.section).toUpperCase();
     count.textContent=String(current+1).padStart(2,'0')+' / '+String(ordered.length).padStart(2,'0');
   }
-  previous.addEventListener('click',()=>show(current-1));
-  next.addEventListener('click',()=>show(current+1));
+  function navigate(direction){
+    if(unavailable.size>=ordered.length)return;
+    let index=current;
+    for(let attempts=0;attempts<ordered.length;attempts++){
+      index=(index+direction+ordered.length)%ordered.length;
+      if(!unavailable.has(ordered[index].id)){show(index);return;}
+    }
+  }
+  previous.addEventListener('click',()=>navigate(-1));
+  next.addEventListener('click',()=>navigate(1));
   root.addEventListener('keydown',event=>{
-    if(event.key==='ArrowLeft'){event.preventDefault();show(current-1);}
-    if(event.key==='ArrowRight'){event.preventDefault();show(current+1);}
+    if(event.key==='ArrowLeft'){event.preventDefault();navigate(-1);}
+    if(event.key==='ArrowRight'){event.preventDefault();navigate(1);}
   });
-  // Si alguna fotografía deja de existir, pasa automáticamente a la siguiente.
-  let failed=0;
   image.addEventListener('error',()=>{
-    if(failed++<ordered.length){show(current+1);}
-    else{image.src='assets/img/productos/mochila.svg';image.alt='Ilustración de mochila';}
+    const product=ordered[current];
+    unavailable.add(product.id);
+    console.warn('MARZZELLI: no se pudo cargar la imagen:',product.image);
+    if(unavailable.size>=ordered.length){
+      image.onerror=null;
+      image.removeAttribute('src');
+      image.alt='No se encontraron fotografías disponibles';
+      name.textContent='Fotografías no disponibles';
+      return;
+    }
+    navigate(1);
   });
-  image.addEventListener('load',()=>{failed=0;});
   show(0);
 }
 initHeroCarousel();
